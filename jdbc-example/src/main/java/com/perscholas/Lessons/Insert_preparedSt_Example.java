@@ -1,3 +1,5 @@
+package com.perscholas.Lessons;
+
 import java.sql.*;
 public class Insert_preparedSt_Example {
    public static void main(String[] args) {
@@ -6,7 +8,7 @@ public class Insert_preparedSt_Example {
        ResultSet rs = null;
        String dburl = "jdbc:mysql://localhost:3306/classicmodels";
        String user= "root";
-       String password = "password";
+       String password = "@Dr4g0nf71354m3";
        try {
            con = DriverManager.getConnection(dburl, user, password);
            System.out.println("Connection established successfully!");
